@@ -1,0 +1,21 @@
+<!--pages/info/info.wxml-->
+<view class="showbox">
+	<view class="swiperbox">
+		<swiper class="swiper" circular="true" previous-margin="50rpx" next-margin="50rpx" bindchange="handleChange">
+			<block wx:for="{{imagelist}}" wx:key="*this">
+				<swiper-item class="swiperitem">
+					<view class="imgbox">
+						<image class="swiperimg {{currentIndex == index ? 'midimg':''}}" src="{{item[0]}}" mode="" />
+					</view>
+					<view class="textbox">
+						<text class="swipertitle">{{item[1]}}</text>
+						<text class="swipertext">{{item[2]}}</text>
+					</view>
+					<view class="icon">
+						<image src="/static/icon/树叶.svg" mode="" />
+					</view>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+</view>

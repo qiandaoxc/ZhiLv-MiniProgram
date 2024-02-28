@@ -1,0 +1,124 @@
+/* pages/info/info.wxss */
+page{
+	--shadowcolor:#88AB8E;
+	--bgcolor:#f6f7d7;
+	--margin-left-color:#f6f7d7 ;
+	--margin-right-color:#e9f8be ;
+	--fontcolor:#3b8686;
+	--font-botton:#6adbb9;
+	--font-top: #f1ab4f;
+}
+.showbox{
+	height: 100%;
+	width: 100%;
+	/* background-color: var(--bgcolor); */
+	background-image: linear-gradient(180deg, var(--margin-left-color) 10%,var(--margin-right-color) 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.videobox{
+	width: 98%;
+	height: 450rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+}
+video{
+	margin-top: 40rpx;
+	box-shadow: 0 0 30rpx var(--shadowcolor);
+	width: 95%;
+	border-radius: 30rpx;
+}
+.swiperbox{
+	width: 100%;
+	height: 1400rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.swiper{
+	width: 90%;
+	height: 100%;
+}
+.swiperitem{
+	height: 90%;
+	display: flex;
+	margin-top: 20rpx;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+}
+.imgbox{
+	border-radius: 30rpx;
+	height: 430rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.swiperimg{
+	border-radius: 30rpx;
+	width: 550rpx;
+	height: 300rpx;
+	box-shadow: 0 0 20rpx var(--shadowcolor);
+}
+.midimg{
+	height: 400rpx;
+	box-shadow: 0 0 20rpx var(--shadowcolor);
+}
+.textbox{
+	border: 1rpx dashed #7cba59;
+	border-radius: 30rpx;
+	margin-top: 20rpx;
+	width: 94%;
+	height:840rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.swipertext{
+	margin-top: 20rpx;
+	width: 80%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	height: 95%;
+	font-size: 27rpx;
+	/* writing-mode: vertical-lr; */
+	background-image: linear-gradient(70deg, var(--font-botton), var(--font-top));
+	background-clip: text;
+	-webkit-background-clip: text; /* 背景被裁剪成文字的前景色 */
+	-webkit-text-fill-color: transparent; /* 文字填充颜色变透明 */ 
+}
+.swipertitle{
+	font-weight: 800;
+	margin-top: 20rpx;
+	width: 80%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	height: 5%;
+	/* writing-mode: vertical-lr; */
+	background-image: linear-gradient(70deg, var(--font-botton), var(--font-top));
+	background-clip: text;
+	-webkit-background-clip: text; /* 背景被裁剪成文字的前景色 */
+	-webkit-text-fill-color: transparent; /* 文字填充颜色变透明 */ 
+}
+.icon{
+	margin-top: 20rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50rpx;
+	height: 50rpx;
+}

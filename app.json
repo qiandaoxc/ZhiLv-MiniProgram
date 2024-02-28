@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/exhibit/exhibit",
+    "pages/info/info",
+    "pages/switch/switch"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "知绿研学路",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar":{
+    "color":"#79bd9a",
+    "selectedColor": "#3B8686",
+    "list": [
+      {
+        "pagePath": "pages/exhibit/exhibit",
+        "text": "演示",
+        "iconPath": "/static/icon/演示ex.png",
+        "selectedIconPath": "/static/icon/演示.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "科普",
+        "iconPath": "/static/icon/科普ex.png",
+        "selectedIconPath": "/static/icon/科普.png"
+      },
+      {
+        "pagePath": "pages/switch/switch",
+        "text": "认领",
+        "iconPath": "/static/icon/认领ex.png",
+        "selectedIconPath": "/static/icon/认领.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading":"requiredComponents"
+}

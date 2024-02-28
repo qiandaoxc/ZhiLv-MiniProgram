@@ -1,0 +1,18 @@
+<!--pages/switch/switch.wxml-->
+<view class="allbox">
+	<view class="background">
+		<view class="itembox">
+			<view class="item1">
+				<navigator class="switchbox" target="miniProgram" open-type="navigate" app-id="wx4b3e32b9559d02f9" version="release">
+					<image class="img" src="cloud://zhilvyanxue-6g81jnl88e3c6dd2.7a68-zhilvyanxue-6g81jnl88e3c6dd2-1324495851/static/认领红松小程序.png" mode="" />
+					<text class="tip">点击跳转小程序</text>
+				</navigator>
+			</view>
+			<view class="item2">
+					<text class="tip">长按关注公众号</text>
+					<image class="img" src="cloud://zhilvyanxue-6g81jnl88e3c6dd2.7a68-zhilvyanxue-6g81jnl88e3c6dd2-1324495851/static/公众号.jpg" show-menu-by-longpress="{{true}}"/>
+			</view>
+		</view>
+		<image class="background-image" src="cloud://zhilvyanxue-6g81jnl88e3c6dd2.7a68-zhilvyanxue-6g81jnl88e3c6dd2-1324495851/static/认领页面背景已去底.jpg" />
+	</view>
+</view>
