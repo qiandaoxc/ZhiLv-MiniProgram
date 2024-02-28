@@ -1,0 +1,70 @@
+/* pages/switch/switch.wxss */
+page{
+	--margin-left-color:#a7dbdb;
+	--margin-right-color:#f6f5f3;
+	--shadowcolor:#1f9792;
+	--fontcolor:#3b8686;
+}
+.allbox{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	color:var(--fontcolor) ;
+}
+.background{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(90deg, var(--margin-left-color) 0%,var(--margin-right-color) 100%);
+}
+.img{
+	border: 2rpx solid #13334c;
+	border-radius: 30rpx;
+	box-shadow: 0 0 30rpx var(--shadowcolor);
+	width: 200rpx;
+	height: 200rpx;
+}
+.itembox{
+	width: 90%;
+	height: 500rpx;
+	margin: 100rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.item2{
+	border-radius: 30rpx;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.item1{
+	width: 100%;
+}
+.switchbox{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.background-image{
+	width: 100%;
+	height: 700rpx;
+}
+.tip{
+	width: 60%;
+	height: 150rpx;
+	box-shadow: 0 0 30rpx var(--shadowcolor);
+	border-radius: 40rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
